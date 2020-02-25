@@ -1,0 +1,8 @@
+- git:
+    local-name: fetchrobotics/fetch_gazebo
+    uri: https://github.com/fetchrobotics/fetch_gazebo.git
+    version: gazebo7  # for kinetic
+- git:
+    local-name: fetchrobotics/fetch_ros
+    uri: https://github.com/fetchrobotics/fetch_ros.git
+    version: indigo-devel  # for kinetic
