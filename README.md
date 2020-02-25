@@ -21,7 +21,12 @@ source ~/fetch_moveit_ws/devel/setup.bash
 ```
 source /opt/ros/kinetic/setup.bash
 source ~/fetch_moveit_ws/devel/setup.bash
+# Terminal 1
 roslaunch fetch_gazebo playground.launch
+# Terminal 2
 roslaunch fetch_moveit_config move_group.launch info:=true # launch only MoveIt!
 # roslaunch fetch_gazebo_demo demo.launch # launch navigation, perception and Moveit!
+# Terminal 3
+cd ~/fetch_moveit_ws/src
+rviz -d fetch_moveit_kinetic/fetch_moveit_kinetic.rviz
 ```
