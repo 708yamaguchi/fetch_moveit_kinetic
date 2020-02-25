@@ -3,7 +3,7 @@ fetch\_moveit\_kinetic
 The purpose of this package is to use `fetch_gazebo` with `MoveIt!` in ROS kinetic.
 
 ## Install
-```
+```bash
 cd ~
 mkdir -p fetch_moveit_ws/src
 cd fetch_moveit_ws/src  # same directory as .rosinstall
@@ -18,7 +18,7 @@ source ~/fetch_moveit_ws/devel/setup.bash
 ```
 
 ## Use fetch\_gazebo with MoveIt!
-```
+```bash
 source /opt/ros/kinetic/setup.bash
 source ~/fetch_moveit_ws/devel/setup.bash
 # Terminal 1
