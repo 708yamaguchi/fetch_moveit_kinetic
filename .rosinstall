@@ -6,3 +6,7 @@
     local-name: fetchrobotics/fetch_ros
     uri: https://github.com/fetchrobotics/fetch_ros.git
     version: indigo-devel  # for kinetic
+- git:
+    local-name: 708yamaguchi/moveit_ompl_planning_interface
+    uri: https://github.com/708yamaguchi/moveit_ompl_planning_interface.git
+    version: kinetic-devel
